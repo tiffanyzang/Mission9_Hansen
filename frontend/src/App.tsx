@@ -36,7 +36,7 @@ class TeamCard extends React.Component<Format> {
     const oneTeam = this.props;
 
     return (
-      <div>
+      <div className="TeamCard">
         <h3>{oneTeam.school}</h3>
         <h4>Mascot: {oneTeam.name}</h4>
         <h4>

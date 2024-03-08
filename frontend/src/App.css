@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+/* Add this to your App.css file */
+
+/* TeamCard container */
+.TeamCard {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Team name */
+.TeamCard h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* Mascot name */
+.TeamCard h4 {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Location */
+.TeamCard h4:last-child {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Adjust spacing */
+.TeamCard > div {
+  margin-bottom: 8px;
+}
